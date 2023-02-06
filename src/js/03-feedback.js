@@ -46,3 +46,6 @@ updateInput()
 form.addEventListener("input",throttle(saveMessageHandler,500)); 
 // to use throttle with eventListener need to use "tartget" NOT currentTarget cause during bubbling target all the time the same!!
 form.addEventListener("submit",formSubmitHandler);
+
+
+
